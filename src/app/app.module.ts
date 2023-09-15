@@ -6,6 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { SearchBoxComponent } from './search-box/search-box.component';
 import { FilterMenuComponent } from './filter-menu/filter-menu.component';
 import { CountriesComponent } from './countries/countries.component';
+import { CountryCardComponent } from './countries/country-card/country-card.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { CountriesComponent } from './countries/countries.component';
     HeaderComponent,
     SearchBoxComponent,
     FilterMenuComponent,
-    CountriesComponent
+    CountriesComponent,
+    CountryCardComponent,
   ],
   imports: [
     BrowserModule
